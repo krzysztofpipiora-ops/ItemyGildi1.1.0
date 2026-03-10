@@ -7,7 +7,6 @@
     <groupId>pl.twojserwer</groupId>
     <artifactId>GuildItems</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -19,10 +18,6 @@
         <repository>
             <id>spigotmc-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-        </repository>
-        <repository>
-            <id>funnyguilds-repo</id>
-            <url>https://repo.funnyguilds.dzikoysk.net/releases</url>
         </repository>
         <repository>
             <id>jitpack.io</id>
@@ -38,8 +33,8 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>net.dzikoysk.funnyguilds</groupId>
-            <artifactId>funnyguilds</artifactId>
+            <groupId>com.github.FunnyGuilds</groupId>
+            <artifactId>FunnyGuilds</artifactId>
             <version>4.14.0</version>
             <scope>provided</scope>
         </dependency>
