@@ -24,6 +24,10 @@
             <id>funnyguilds-repo</id>
             <url>https://repo.funnyguilds.dzikoysk.net/releases</url>
         </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
 
     <dependencies>
